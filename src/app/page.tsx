@@ -99,12 +99,12 @@ export default function () {
 
              {/* Left Section */}
 
-          <div className="w-1/3 text-center relative z-10">
+          <div className="w-1/3 text-center  z-10">
             <Image src={"/images/myprofile.jpg"}
             alt={"profile"}
             width={250}
             height={250}
-            className="rounded-lg mb-6 max-w-[250px] max-h-[250px] "/>
+            className="rounded-lg mb-6 object-contain "/>
 
             <p className="border-t-2 border-t-slate-400 pt-2 font-bold text-sky-500 mt-10 text-2xl">
                Authorized Signature</p>
